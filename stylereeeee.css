@@ -35,7 +35,7 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   background-color: var(--paper);
-  background-image: radial-gradient(rgba(26, 26, 26, 0.09) 1.3px, transparent 1.4px); /*px	fixed pixels (borders, shadows)*/
+  background-image: radial-gradient(rgba(26, 26, 26, 0.09) 1.3px, transparent 1.4px); /*px  fixed pixels (borders, shadows)*/
   background-size: 22px 22px;
   color: var(--ink);
   font-family: var(--font-body);
@@ -800,7 +800,6 @@ a:focus-visible {
   background-image: radial-gradient(rgba(26, 26, 26, 0.16) 2.2px, transparent 2.6px);
   background-size: 16px 16px;
 }
-
 .member--sammy::before {
   content: "";
   position: absolute;
@@ -814,7 +813,6 @@ a:focus-visible {
   transform: skewY(-4deg);
   z-index: 1;
 }
-
 .sammy__title { margin-bottom: 2.75rem; }
 
 .sammy__issue {
